@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Data Flow Diagram - Будущее 2.0" id="data-flow-diagram">
+    <mxGraphModel dx="3026" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Data Flow Diagram - Целевая архитектура &quot;Будущее 2.0&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="20" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="doctors" value="👩‍⚕️ Врачи" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#01579b;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="patients" value="🏥 Пациенты" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#01579b;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fintech-users" value="💳 Финтех-пользователи" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#01579b;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="analysts" value="📊 Аналитики" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#01579b;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="medical-domain" value="🏥 Медицинский домен" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#e65100;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="100" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="financial-domain" value="💳 Финансовый домен" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#e65100;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="300" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-domain" value="🤖 ИИ домен" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#e65100;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="100" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="analytics-domain" value="📊 Аналитический домен" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#e65100;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="300" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="integration-domain" value="🔗 Интеграционный домен" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#880e4f;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="200" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="data-portal" value="📱 Портал самообслуживания" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="500" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pharma-partners" value="💊 Фармацевтика" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#4a148c;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="930" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="banks" value="🏦 Банки" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#4a148c;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="regulators" value="⚖️ Регуляторы" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#4a148c;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="930" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="flow1" value="Медицинские данные" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1976d2;strokeWidth=2;" parent="1" source="doctors" target="medical-domain" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2" value="Персональные данные" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1976d2;strokeWidth=2;" parent="1" source="patients" target="medical-domain" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3" value="Финансовые транзакции" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1976d2;strokeWidth=2;" parent="1" source="fintech-users" target="financial-domain" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow4" value="Анонимизированные данные" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff9800;strokeWidth=2;" parent="1" source="medical-domain" target="ai-domain" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow5" value="Финансовые метрики" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff9800;strokeWidth=2;" parent="1" source="financial-domain" target="analytics-domain" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow6" value="ИИ-аналитика" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff9800;strokeWidth=2;" parent="1" source="ai-domain" target="analytics-domain" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow7" value="Аналитические отчёты" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4caf50;strokeWidth=2;" parent="1" source="analytics-domain" target="data-portal" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow8" value="Самообслуживание" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4caf50;strokeWidth=2;" parent="1" source="data-portal" target="analysts" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow9" value="Данные о лекарствах" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9c27b0;strokeWidth=2;" parent="1" source="integration-domain" target="pharma-partners" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow10" value="Банковские транзакции" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9c27b0;strokeWidth=2;" parent="1" source="integration-domain" target="banks" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow11" value="Регулятивная отчётность" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9c27b0;strokeWidth=2;" parent="1" source="integration-domain" target="regulators" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="scenario1" value="🚀 Быстрая подготовка отчётности" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fillColor=#e3f2fd;strokeColor=#1976d2;" parent="1" vertex="1">
+          <mxGeometry x="50" y="650" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="scenario2" value="🔧 Независимое развитие направлений" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fillColor=#e3f2fd;strokeColor=#1976d2;" parent="1" vertex="1">
+          <mxGeometry x="300" y="650" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="scenario3" value="📈 Масштабирование для новых бизнесов" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fillColor=#e3f2fd;strokeColor=#1976d2;" parent="1" vertex="1">
+          <mxGeometry x="550" y="650" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="scenario4" value="🤖 ИИ-аналитика и прогнозирование" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fillColor=#e3f2fd;strokeColor=#1976d2;" parent="1" vertex="1">
+          <mxGeometry x="800" y="650" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Легенда потоков данных:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="750" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend1" value="🔵 Входящие данные от пользователей" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="50" y="780" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend2" value="🟠 Междоменные потоки данных" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="50" y="800" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend3" value="🟢 Аналитические потоки" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="50" y="820" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend4" value="🟣 Внешние интеграции" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="50" y="840" width="200" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

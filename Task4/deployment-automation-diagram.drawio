@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Deployment Automation - Будущее 2.0" id="deployment-automation">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Диаграмма автоматизации развёртывания &quot;Будущее 2.0&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="20" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="terraform-section" value="🔧 УПРАВЛЯЕТСЯ TERRAFORM" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fillColor=#e8f5e8;strokeColor=#1b5e20;" parent="1" vertex="1">
+          <mxGeometry x="50" y="100" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vpc" value="VPC&#xa;🌐 Виртуальная сеть" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subnet-public" value="Public Subnet&#xa;🌍 Публичная подсеть" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subnet-private" value="Private Subnet&#xa;🔒 Приватная подсеть" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="internet-gateway" value="Internet Gateway&#xa;🌐 Шлюз интернета" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nat-gateway" value="NAT Gateway&#xa;🔀 NAT шлюз" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sg-web" value="Security Group&#xa;🛡️ Веб-серверы" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sg-db" value="Security Group&#xa;🛡️ База данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sg-app" value="Security Group&#xa;🛡️ Приложения" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vm-web" value="Web Server&#xa;🖥️ n1-standard-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vm-app" value="App Server&#xa;🖥️ n1-standard-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vm-db" value="Database Server&#xa;🖥️ n1-standard-8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vm-monitoring" value="Monitoring Server&#xa;🖥️ n1-standard-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="disk-web" value="SSD Disk&#xa;💾 50GB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="disk-app" value="SSD Disk&#xa;💾 100GB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="disk-db" value="SSD Disk&#xa;💾 500GB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="disk-monitoring" value="SSD Disk&#xa;💾 50GB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="load-balancer" value="Load Balancer&#xa;⚖️ Балансировщик" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="manual-section" value="👨‍💻 РАЗВОРАЧИВАЕТСЯ ВРУЧНУЮ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fillColor=#ffebee;strokeColor=#d32f2f;" parent="1" vertex="1">
+          <mxGeometry x="50" y="600" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="docker-images" value="Docker Images&#xa;🐳 Контейнеры" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#d32f2f;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="applications" value="Applications&#xa;📱 Приложения" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#d32f2f;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="databases" value="Database Data&#xa;🗄️ Данные БД" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#d32f2f;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="monitoring-config" value="Monitoring Config&#xa;📊 Конфигурация" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#d32f2f;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssl-certificates" value="SSL Certificates&#xa;🔐 Сертификаты" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#d32f2f;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="deployment-section" value="🚀 ПРОЦЕСС РАЗВЁРТЫВАНИЯ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fillColor=#e3f2fd;strokeColor=#1976d2;" parent="1" vertex="1">
+          <mxGeometry x="50" y="800" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step1" value="1. terraform init&#xa;🔧 Инициализация" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" value="2. terraform plan&#xa;📋 Планирование" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step3" value="3. terraform apply&#xa;⚡ Применение" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step4" value="4. Manual Setup&#xa;👨‍💻 Ручная настройка" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-section" value="💡 ПРЕИМУЩЕСТВА TERRAFORM" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fillColor=#f0f8ff;strokeColor=#1976d2;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1000" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit1" value="🔄 Воспроизводимость&#xa;Одинаковая инфраструктура" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f8ff;strokeColor=#1976d2;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1060" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit2" value="📈 Масштабируемость&#xa;Быстрое расширение" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f8ff;strokeColor=#1976d2;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="1060" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit3" value="🛡️ Безопасность&#xa;Контроль версий" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f8ff;strokeColor=#1976d2;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="1060" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit4" value="⚡ Скорость&#xa;Автоматизация" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f8ff;strokeColor=#1976d2;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="1060" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-section" value="📋 ЛЕГЕНДА" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1200" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-terraform" value="🔧 Управляется Terraform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#1b5e20;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1260" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-manual" value="👨‍💻 Разворачивается вручную" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#d32f2f;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="1260" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-process" value="🚀 Процесс развёртывания" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1260" width="200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

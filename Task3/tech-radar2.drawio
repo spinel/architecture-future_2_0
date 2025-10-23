@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Tech Radar - Будущее 2.0" id="tech-radar-final">
+    <mxGraphModel dx="1426" dy="2194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Технологический радар &quot;Будущее 2.0&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="-80" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="adopt-ring" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#28a745;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="900" y="200" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="adopt-label" value="ADOPT" style="text;html=1;strokeColor=none;fillColor=#28a745;strokeColor=#ffffff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=20;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="postgresql" value="PostgreSQL&#xa;🔵 Надёжная БД" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#28a745;strokeColor=#ffffff;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kubernetes" value="Kubernetes&#xa;🔵 Контейнеризация" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#28a745;strokeColor=#ffffff;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="docker" value="Docker&#xa;🔵 Контейнеризация" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#28a745;strokeColor=#ffffff;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud-infrastructure" value="Облачная инфраструктура&#xa;🔵 AWS/Azure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#28a745;strokeColor=#ffffff;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="trial-ring" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#ffc107;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="700" y="100" width="600" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="trial-label" value="TRIAL" style="text;html=1;strokeColor=none;fillColor=#ffc107;strokeColor=#ffffff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kafka" value="Apache Kafka&#xa;🟡 Event Streaming" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc107;strokeColor=#ffffff;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="200" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="redis" value="Redis&#xa;🟡 Кэширование" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc107;strokeColor=#ffffff;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="microservices" value="Микросервисы&#xa;🟡 Архитектурный подход" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc107;strokeColor=#ffffff;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="400" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="clickhouse" value="ClickHouse&#xa;🟡 Аналитическая БД" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc107;strokeColor=#ffffff;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="prometheus" value="Prometheus&#xa;🟡 Мониторинг" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc107;strokeColor=#ffffff;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="200" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gpu-clusters" value="GPU кластеры&#xa;🟡 ИИ вычисления" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc107;strokeColor=#ffffff;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="assess-ring" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#dc3545;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="490" y="20" width="1000" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="assess-label" value="ASSESS" style="text;html=1;strokeColor=none;fillColor=#dc3545;strokeColor=#ffffff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="data-mesh" value="Data Mesh&#xa;🔴 Распределённые данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dc3545;strokeColor=#ffffff;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="150" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-platform" value="ИИ-платформа&#xa;🔴 ML/AI сервисы" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dc3545;strokeColor=#ffffff;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="780" y="100" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="grafana" value="Grafana&#xa;🔴 Визуализация" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dc3545;strokeColor=#ffffff;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="scenarios-label" value="🎯 ПОДДЕРЖИВАЕМЫЕ БИЗНЕС-СЦЕНАРИИ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fillColor=#e3f2fd;strokeColor=#1976d2;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1100" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="scenario1" value="🚀 Быстрая подготовка отчётности" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1170" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="scenario2" value="🔧 Независимое развитие направлений" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="1170" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="scenario3" value="📈 Масштабирование для новых бизнесов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="1170" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="scenario4" value="🤖 ИИ-аналитика и прогнозирование" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1976d2;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="1170" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-label" value="📋 ЛЕГЕНДА СТАТУСОВ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1300" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-adopt" value="🔵 ADOPT - Внедрять (зрелые технологии)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#28a745;strokeColor=#ffffff;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1370" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-trial" value="🟡 TRIAL - Тестировать (перспективные технологии)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc107;strokeColor=#ffffff;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="1370" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-assess" value="🔴 ASSESS - Оценивать (новые технологии)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dc3545;strokeColor=#ffffff;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="1370" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-label" value="💡 КЛЮЧЕВЫЕ ПРЕИМУЩЕСТВА" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fillColor=#f0f8ff;strokeColor=#1976d2;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1450" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-text" value="• PostgreSQL + ClickHouse = Быстрая аналитика&#xa;• Kubernetes + Docker = Масштабируемость&#xa;• Kafka = Надёжная интеграция&#xa;• Data Mesh = Независимость доменов&#xa;• ИИ-платформа = Интеллектуальная аналитика" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f8ff;strokeColor=#1976d2;align=left;verticalAlign=top;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1520" width="500" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
